@@ -1,0 +1,1 @@
+nohup torchrun --master_port 29501 --nproc_per_node=4 train_qlora.py --train_args_file train_args/qlora/baichuan-7b-sft-qlora.json &
